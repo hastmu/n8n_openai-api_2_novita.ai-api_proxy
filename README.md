@@ -53,3 +53,6 @@ UPSTREAM_BASE_URL=https://api.novita.ai/v3/openai
 ```
 ./runit.sh
 ```
+looks like:
+
+![run](doc/n8n-run.png "run")
