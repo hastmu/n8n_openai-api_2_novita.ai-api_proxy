@@ -9,6 +9,7 @@
   - [installation](#installation)
   - [config](#config)
   - [running](#running)
+  - [n8n openai api credentials setup](#n8n-openai-api-credentials-setup)
 
 
 # n8n_openai-api_2_novita.ai-api_proxy
@@ -56,3 +57,10 @@ UPSTREAM_BASE_URL=https://api.novita.ai/v3/openai
 looks like:
 
 ![run](doc/n8n-run.png "run")
+
+## n8n openai api credentials setup
+* the API key as usual
+* the url points to your proxy ending with /v1, e.g. http://192.168.0.209:8000/v1 in my case.
+  
+
+Enjoy.
